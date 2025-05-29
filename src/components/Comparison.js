@@ -212,10 +212,10 @@ function Comparison() {
                   onChange={handleTimeChange}
                   disabled={isGameStarted}
                 >
-                  <option value={5}>5 giây</option>
-                  <option value={10}>10 giây</option>
-                  <option value={15}>15 giây</option>
-                  <option value={20}>20 giây</option>
+                  <option value={5}>5s</option>
+                  <option value={10}>10s</option>
+                  <option value={15}>15s</option>
+                  <option value={20}>20s</option>
                 </select>
               </div>
               <div className="action-row">
